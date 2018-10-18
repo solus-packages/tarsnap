@@ -1,0 +1,45 @@
+<PISI>
+    <Source>
+        <Name>tarsnap</Name>
+        <Packager>
+            <Name>Shen Chen</Name>
+            <Email>shenchen@cogenda.com</Email>
+        </Packager>
+        <License>Distributable</License>
+        <PartOf>network.clients</PartOf>
+        <Summary xml:lang="en">Tarsnap is a secure, efficient online backup service.</Summary>
+        <Description xml:lang="en">A simple command line tool for making cloud backups on the tarsnap cloud service.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>tarsnap</Name>
+        <Summary xml:lang="en">Tarsnap is a secure, efficient online backup service.</Summary>
+        <Description xml:lang="en">A simple command line tool for making cloud backups on the tarsnap cloud service.
+</Description>
+        <PartOf>network.clients</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/tarsnap</Path>
+            <Path fileType="executable">/usr/bin/tarsnap-keygen</Path>
+            <Path fileType="executable">/usr/bin/tarsnap-keymgmt</Path>
+            <Path fileType="executable">/usr/bin/tarsnap-keyregen</Path>
+            <Path fileType="executable">/usr/bin/tarsnap-recrypt</Path>
+            <Path fileType="data">/usr/share/defaults/tarsnap/tarsnap.conf.sample</Path>
+            <Path fileType="man">/usr/share/man/man1/tarsnap-keygen.1</Path>
+            <Path fileType="man">/usr/share/man/man1/tarsnap-keymgmt.1</Path>
+            <Path fileType="man">/usr/share/man/man1/tarsnap-keyregen.1</Path>
+            <Path fileType="man">/usr/share/man/man1/tarsnap-recrypt.1</Path>
+            <Path fileType="man">/usr/share/man/man1/tarsnap.1</Path>
+            <Path fileType="man">/usr/share/man/man5/tarsnap.conf.5</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-09-03</Date>
+            <Version>1.0.39</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Shen Chen</Name>
+            <Email>shenchen@cogenda.com</Email>
+        </Update>
+    </History>
+</PISI>
